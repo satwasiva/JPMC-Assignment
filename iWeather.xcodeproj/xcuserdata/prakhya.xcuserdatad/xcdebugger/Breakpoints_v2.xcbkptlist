@@ -107,8 +107,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -155,8 +155,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -203,8 +203,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "137"
-            endingLineNumber = "137"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
             landmarkName = "generateLocationDataFromBundleJSONFile(searchTerm:sourceFile:)"
             landmarkType = "7">
             <Locations>
@@ -347,8 +347,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "154"
-            endingLineNumber = "154"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
             landmarkName = "generateWeatherData(currentLocationData:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -395,8 +395,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "generateWeatherData(currentLocationData:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -443,8 +443,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "187"
-            endingLineNumber = "187"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
             landmarkName = "generateWeatherDataFromBundleJSONFile(sourceFile:)"
             landmarkType = "7">
             <Locations>
@@ -491,8 +491,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "191"
-            endingLineNumber = "191"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
             landmarkName = "generateWeatherDataFromBundleJSONFile(sourceFile:)"
             landmarkType = "7">
             <Locations>
@@ -539,8 +539,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "194"
-            endingLineNumber = "194"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
             landmarkName = "generateWeatherDataFromBundleJSONFile(sourceFile:)"
             landmarkType = "7">
             <Locations>
@@ -683,8 +683,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -731,8 +731,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1349,8 +1349,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
             landmarkName = "generateWeatherData(currentLocationData:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1427,8 +1427,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1475,8 +1475,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1649,8 +1649,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>

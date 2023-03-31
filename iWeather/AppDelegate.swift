@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  iWeather
 //
-//  Created by Vamsi Prakhya on 3/27/23.
+//  Created by Vamsi Prakhya
 //
 
 import UIKit

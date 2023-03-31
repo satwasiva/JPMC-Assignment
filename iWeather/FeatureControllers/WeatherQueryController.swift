@@ -2,7 +2,7 @@
 //  WeatherQueryController.swift
 //  iWeather
 //
-//  Created by Vamsi Prakhya on 3/29/23.
+//  Created by Vamsi Prakhya
 //
 
 import Foundation

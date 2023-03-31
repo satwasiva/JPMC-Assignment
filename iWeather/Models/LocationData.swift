@@ -2,7 +2,7 @@
 //  LocationData.swift
 //  iWeather
 //
-//  Created by Vamsi Prakhya on 3/28/23.
+//  Created by Vamsi Prakhya
 //
 
 import Foundation

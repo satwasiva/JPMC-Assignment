@@ -2,7 +2,7 @@
 //  DataSourceProtocol.swift
 //  iWeather
 //
-//  Created by Vamsi Prakhya on 3/28/23.
+//  Created by Vamsi Prakhya
 //
 
 import Foundation
@@ -14,6 +14,7 @@ enum ContentSourceType {
     case networkLocation // To designate data source as external network location, for production usage
 }
 
+// A protocol for data source. The source can be getting data from network or local files (testing) etc.
 protocol DataSourceProtocol {
     var weatherData : WeatherData? { get }
     var locationsData : [String : [LocationData]] { get }
@@ -23,6 +24,7 @@ protocol DataSourceProtocol {
     func generateLocationData( lat : Double, lon : Double, completionHandler : @escaping ([LocationData]?, NSError? ) -> Void)
     func generateWeatherData( currentLocationData : LocationData, completionHandler: @escaping (WeatherData?, NSError?) -> Void )
 }
+
 
 class DataSource : DataSourceProtocol {
     var source : ContentSourceType

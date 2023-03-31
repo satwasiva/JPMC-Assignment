@@ -2,7 +2,7 @@
 //  ConditionAnnotation.swift
 //  iWeather
 //
-//  Created by Vamsi Prakhya on 3/30/23.
+//  Created by Vamsi Prakhya
 //
 
 import Foundation
