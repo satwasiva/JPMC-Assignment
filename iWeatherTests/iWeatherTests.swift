@@ -10,7 +10,7 @@ import XCTest
 
 final class iWeatherTests: XCTestCase {
 
-    var dataSource : DataSource? = nil
+    var dataSource : DataSourceProtocol? = nil
     
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -26,16 +26,18 @@ final class iWeatherTests: XCTestCase {
         var weatherInfo : WeatherData? = nil
         var locationInfo : LocationData? = nil
         
-        dataSource = DataSource(sourceType: .bundleJSON)
+        dataSource = DataSourceWithLocalJSON()
         dataSource!.generateLocationData(city: "Fremont", state: "CA") {
-            locationDataList, error in
+            [weak self] locationDataList, error in
             
-            if locationDataList != nil && locationDataList!.count >= 1 {
+            if self != nil && locationDataList != nil && locationDataList!.count >= 1 {
                 locationInfo = locationDataList![0]
-                self.dataSource!.generateWeatherData(currentLocationData: locationDataList![0]) {weatherData,_ in
+                self!.dataSource!.generateWeatherData(currentLocationData: locationDataList![0]) {weatherData,_ in
                     weatherInfo = weatherData
                     semaphore.signal()
                 }
+            } else {
+                semaphore.signal()
             }
         }
         let timeout = DispatchTime.now() + DispatchTimeInterval.seconds(5)
@@ -53,14 +55,14 @@ final class iWeatherTests: XCTestCase {
         var locationInfo : LocationData? = nil
         var locationCount = 0
         
-        dataSource = DataSource(sourceType: .networkLocation)
+        dataSource = DataSourceFromNetwork()
         dataSource!.generateLocationData(city: "Fremont", state: "CA") {
-            locationDataList, error in
+            [weak self] locationDataList, error in
             
-            if locationDataList != nil && locationDataList!.count >= 1 {
+            if self != nil && locationDataList != nil && locationDataList!.count >= 1 {
                 locationCount = locationDataList!.count
                 locationInfo = locationDataList![0]
-                self.dataSource!.generateWeatherData(currentLocationData: locationDataList![0]) {weatherData,_ in
+                self!.dataSource!.generateWeatherData(currentLocationData: locationDataList![0]) {weatherData,_ in
                     weatherInfo = weatherData
                     semaphore.signal()
                 }
@@ -82,13 +84,13 @@ final class iWeatherTests: XCTestCase {
         var weatherInfo : WeatherData? = nil
         var locationInfo : LocationData? = nil
         
-        dataSource = DataSource(sourceType: .networkLocation)
+        dataSource = DataSourceFromNetwork()
         dataSource!.generateLocationData(city: "Fremont", state: "") {
-            locationDataList, error in
+            [weak self] locationDataList, error in
             
-            if locationDataList != nil && locationDataList!.count >= 1 {
+            if self != nil && locationDataList != nil && locationDataList!.count >= 1 {
                 locationInfo = locationDataList![0]
-                self.dataSource!.generateWeatherData(currentLocationData: locationDataList![0]) {weatherData,_ in
+                self!.dataSource!.generateWeatherData(currentLocationData: locationDataList![0]) {weatherData,_ in
                     weatherInfo = weatherData
                     semaphore.signal()
                 }
@@ -108,7 +110,7 @@ final class iWeatherTests: XCTestCase {
         let semaphore = DispatchSemaphore(value: 0)
         var locationCount = 0
         
-        dataSource = DataSource(sourceType: .networkLocation)
+        dataSource = DataSourceFromNetwork()
         dataSource!.generateLocationData(city: "tghregrgrbno", state: "") {
             locationDataList, error in
             
@@ -117,7 +119,7 @@ final class iWeatherTests: XCTestCase {
                 semaphore.signal()
             }
         }
-        let timeout = DispatchTime.now() + DispatchTimeInterval.seconds(500)
+        let timeout = DispatchTime.now() + DispatchTimeInterval.seconds(5)
         if semaphore.wait(timeout: timeout) == DispatchTimeoutResult.timedOut {
                     XCTFail("Test timed out")
                 }

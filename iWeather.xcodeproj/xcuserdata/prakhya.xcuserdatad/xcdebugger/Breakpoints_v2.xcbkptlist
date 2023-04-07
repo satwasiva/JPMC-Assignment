@@ -14,8 +14,8 @@
             filePath = "iWeatherTests/iWeatherTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "testDatSourceNetworkEnd2EndProperData()"
             landmarkType = "7">
             <Locations>
@@ -100,150 +100,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BC94D008-1946-4FB3-8105-B88BAEBF9B2C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iWeather/Models/DataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "generateLocationData(city:state:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BC94D008-1946-4FB3-8105-B88BAEBF9B2C - e119f6aa30ca0338"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeather.DataSource.generateLocationData(city: Swift.String, state: Swift.String, completionHandler: (Swift.Optional&lt;Swift.Array&lt;iWeather.LocationData&gt;&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "iWeather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "368">
-               </Location>
-               <Location
-                  uuid = "BC94D008-1946-4FB3-8105-B88BAEBF9B2C - 147a92f7dd3a679"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeatherTests.DataSource.generateLocationData(city: Swift.String, state: Swift.String, completionHandler: (Swift.Optional&lt;Swift.Array&lt;iWeatherTests.LocationData&gt;&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "iWeatherTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "368">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E8BFCF7F-D555-435A-BAAB-FE348BBE1F24"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iWeather/Models/DataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "generateLocationData(city:state:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E8BFCF7F-D555-435A-BAAB-FE348BBE1F24 - 22479756db1a06fc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in iWeather.DataSource.generateLocationData(city: Swift.String, state: Swift.String, completionHandler: (Swift.Optional&lt;Swift.Array&lt;iWeather.LocationData&gt;&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "iWeather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "120">
-               </Location>
-               <Location
-                  uuid = "E8BFCF7F-D555-435A-BAAB-FE348BBE1F24 - 343ce463ba137964"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in iWeatherTests.DataSource.generateLocationData(city: Swift.String, state: Swift.String, completionHandler: (Swift.Optional&lt;Swift.Array&lt;iWeatherTests.LocationData&gt;&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "iWeatherTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "56"
-                  endingLineNumber = "56"
-                  offsetFromSymbolStart = "120">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "698C9473-CD9B-4EB5-8782-182C8DBB3545"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iWeather/Models/DataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "139"
-            endingLineNumber = "139"
-            landmarkName = "generateLocationDataFromBundleJSONFile(searchTerm:sourceFile:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "698C9473-CD9B-4EB5-8782-182C8DBB3545 - 8fb8995e97b1cf12"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeather.DataSource.generateLocationDataFromBundleJSONFile(searchTerm: Swift.String, sourceFile: Swift.String) -&gt; Swift.Bool"
-                  moduleName = "iWeather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
-                  offsetFromSymbolStart = "504">
-               </Location>
-               <Location
-                  uuid = "698C9473-CD9B-4EB5-8782-182C8DBB3545 - 980e233febc0aaa7"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeatherTests.DataSource.generateLocationDataFromBundleJSONFile(searchTerm: Swift.String, sourceFile: Swift.String) -&gt; Swift.Bool"
-                  moduleName = "iWeatherTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
-                  offsetFromSymbolStart = "504">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "8C7BCD10-EC4B-457C-B6E8-20FCA7068B3A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -299,8 +155,8 @@
             filePath = "iWeatherTests/iWeatherTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
             landmarkName = "testDatSourceNetworkEnd2EndProperData()"
             landmarkType = "7">
             <Locations>
@@ -347,8 +203,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "generateWeatherData(currentLocationData:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -381,198 +237,6 @@
                   startingLineNumber = "114"
                   endingLineNumber = "114"
                   offsetFromSymbolStart = "296">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "8091FDCB-5EBE-4AEE-949C-BB77E9F5D6F8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iWeather/Models/DataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
-            landmarkName = "generateWeatherData(currentLocationData:completionHandler:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8091FDCB-5EBE-4AEE-949C-BB77E9F5D6F8 - 5e400ecd77bd55d6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in iWeather.DataSource.generateWeatherData(currentLocationData: iWeather.LocationData, completionHandler: (Swift.Optional&lt;iWeather.WeatherData&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "iWeather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "120"
-                  endingLineNumber = "120"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  uuid = "8091FDCB-5EBE-4AEE-949C-BB77E9F5D6F8 - ad798497779b9b6a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in iWeatherTests.DataSource.generateWeatherData(currentLocationData: iWeatherTests.LocationData, completionHandler: (Swift.Optional&lt;iWeatherTests.WeatherData&gt;, Swift.Optional&lt;__C.NSError&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "iWeatherTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "120"
-                  endingLineNumber = "120"
-                  offsetFromSymbolStart = "84">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BDAA5C61-95BF-4ED1-ACA0-3CDCCF6E6AF2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iWeather/Models/DataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "189"
-            endingLineNumber = "189"
-            landmarkName = "generateWeatherDataFromBundleJSONFile(sourceFile:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BDAA5C61-95BF-4ED1-ACA0-3CDCCF6E6AF2 - f4a828df3ef9f68a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeather.DataSource.generateWeatherDataFromBundleJSONFile(sourceFile: Swift.String) -&gt; Swift.Bool"
-                  moduleName = "iWeather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "412">
-               </Location>
-               <Location
-                  uuid = "BDAA5C61-95BF-4ED1-ACA0-3CDCCF6E6AF2 - fdd934a1f15a031d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeatherTests.DataSource.generateWeatherDataFromBundleJSONFile(sourceFile: Swift.String) -&gt; Swift.Bool"
-                  moduleName = "iWeatherTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "412">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "67F3A487-AE36-4703-9598-78EC98F48B75"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iWeather/Models/DataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "193"
-            endingLineNumber = "193"
-            landmarkName = "generateWeatherDataFromBundleJSONFile(sourceFile:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "67F3A487-AE36-4703-9598-78EC98F48B75 - f4a828df3ef9f90e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeather.DataSource.generateWeatherDataFromBundleJSONFile(sourceFile: Swift.String) -&gt; Swift.Bool"
-                  moduleName = "iWeather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "151"
-                  endingLineNumber = "151"
-                  offsetFromSymbolStart = "908">
-               </Location>
-               <Location
-                  uuid = "67F3A487-AE36-4703-9598-78EC98F48B75 - fdd934a1f15a0c99"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeatherTests.DataSource.generateWeatherDataFromBundleJSONFile(sourceFile: Swift.String) -&gt; Swift.Bool"
-                  moduleName = "iWeatherTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "151"
-                  endingLineNumber = "151"
-                  offsetFromSymbolStart = "908">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C9D8829F-A9FA-423B-9845-2AA3ADA6A8FF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iWeather/Models/DataSource.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
-            landmarkName = "generateWeatherDataFromBundleJSONFile(sourceFile:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C9D8829F-A9FA-423B-9845-2AA3ADA6A8FF - f4a828df3ef9f9a3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeather.DataSource.generateWeatherDataFromBundleJSONFile(sourceFile: Swift.String) -&gt; Swift.Bool"
-                  moduleName = "iWeather"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "154"
-                  endingLineNumber = "154"
-                  offsetFromSymbolStart = "1520">
-               </Location>
-               <Location
-                  uuid = "C9D8829F-A9FA-423B-9845-2AA3ADA6A8FF - fdd934a1f15a0c34"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "iWeatherTests.DataSource.generateWeatherDataFromBundleJSONFile(sourceFile: Swift.String) -&gt; Swift.Bool"
-                  moduleName = "iWeatherTests"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/prakhya/Documents/iOSTests/iWeather/iWeather/Models/DataSource.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "154"
-                  endingLineNumber = "154"
-                  offsetFromSymbolStart = "1520">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -683,8 +347,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -731,8 +395,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -809,8 +473,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "getLocationSearchResults(searchTerm:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -857,8 +521,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "getLocationSearchResults(searchTerm:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -935,8 +599,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "getLocationSearchResults(searchTerm:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -983,8 +647,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "getLocationSearchResults(searchTerm:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1031,8 +695,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "parseLocationDataResponse(_:)"
             landmarkType = "7">
             <Locations>
@@ -1079,8 +743,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "getLocationSearchResults(searchTerm:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1127,8 +791,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "parseLocationDataResponse(_:)"
             landmarkType = "7">
             <Locations>
@@ -1175,8 +839,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "getWeatherSearchResults(latitude:longitude:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1223,8 +887,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "getWeatherSearchResults(latitude:longitude:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1301,8 +965,8 @@
             filePath = "iWeather/Networking/NetworkQueryService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "getWeatherSearchResults(latitude:longitude:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1349,8 +1013,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "generateWeatherData(currentLocationData:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1427,8 +1091,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1475,8 +1139,8 @@
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1523,8 +1187,8 @@
             filePath = "iWeatherTests/iWeatherTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "testDatSourceNetworkEnd2EndProperData()"
             landmarkType = "7">
             <Locations>
@@ -1601,8 +1265,8 @@
             filePath = "iWeatherTests/iWeatherTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "testDatSourceNetworkEnd2EndBadData()"
             landmarkType = "7">
             <Locations>
@@ -1643,14 +1307,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "1C52765A-1523-40E3-805D-43F2B06BFC20"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iWeather/Models/DataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "generateLocationData(city:state:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1665,8 +1329,8 @@
             filePath = "iWeather/ViewControllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
             landmarkName = "searchBarSearchButtonClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1681,8 +1345,8 @@
             filePath = "iWeather/ViewControllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "196"
-            endingLineNumber = "196"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
             landmarkName = "searchBarSearchButtonClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1697,8 +1361,8 @@
             filePath = "iWeather/ViewControllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "209"
-            endingLineNumber = "209"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
             landmarkName = "searchBarSearchButtonClicked(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1713,8 +1377,8 @@
             filePath = "iWeather/ViewModels/SearchCurrentWeatherInfoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "searchCityInfo(searchStr:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1777,8 +1441,8 @@
             filePath = "iWeather/FeatureControllers/WeatherQueryController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "queryCityWeatherInfo(searchStr:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1825,8 +1489,8 @@
             filePath = "iWeather/FeatureControllers/WeatherQueryController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "queryCityWeatherInfo(searchStr:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -1873,8 +1537,8 @@
             filePath = "iWeather/ViewModels/SearchCurrentWeatherInfoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "updatePropertyValues()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1889,8 +1553,8 @@
             filePath = "iWeather/ViewControllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -1937,8 +1601,8 @@
             filePath = "iWeather/ViewControllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1953,8 +1617,8 @@
             filePath = "iWeather/FeatureControllers/WeatherQueryController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "queryCityWeatherInfo(searchStr:completionHandler:)"
             landmarkType = "7">
             <Locations>
@@ -2001,8 +1665,8 @@
             filePath = "iWeather/FeatureControllers/WeatherQueryController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "loadImage(resourceStr:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2017,8 +1681,8 @@
             filePath = "iWeather/FeatureControllers/WeatherQueryController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "loadImage(resourceStr:completionHandler:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2033,8 +1697,8 @@
             filePath = "iWeather/ViewControllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
