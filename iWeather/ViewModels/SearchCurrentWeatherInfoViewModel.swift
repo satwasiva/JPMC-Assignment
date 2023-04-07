@@ -40,7 +40,8 @@ class SearchCurrentWeatherInfoViewModel {
     
     func searchCityInfo( searchStr : String, completionHandler: @escaping ([LocationData]?) -> Void ) {
         weatherQueryController.queryCityWeatherInfo(searchStr: searchStr) {
-            locationsData, weatherData in
+            [weak self] locationsData, weatherData in
+            guard let self = self else { return }
             
             if (locationsData == nil && weatherData == nil) || (locationsData != nil && locationsData!.count == 0) {
                 self.resetPropertyValues()
@@ -58,7 +59,8 @@ class SearchCurrentWeatherInfoViewModel {
     
     func searchCityInfo( latitude : Double, longitude : Double, completionHandler: @escaping ([LocationData]?) -> Void ) {
         weatherQueryController.queryCityWeatherInfoReverse(latitude: latitude, longitude: longitude) {
-            locationsData, weatherData in
+            [weak self] locationsData, weatherData in
+            guard let self = self else { return }
             
             if (locationsData == nil && weatherData == nil) || (locationsData != nil && locationsData!.count == 0) {
                 self.resetPropertyValues()

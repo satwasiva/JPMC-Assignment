@@ -22,7 +22,8 @@ class WeatherQueryController {
     func queryCityWeatherInfo( searchStr : String, completionHandler : @escaping ([LocationData]?, WeatherData?) -> Void ) {
         let trimmedStr = searchStr.trimmingCharacters(in: .whitespacesAndNewlines)
         
-        let completion = { ( locationDataList : [LocationData]?, error : NSError? ) in
+        let completion = { [weak self] ( locationDataList : [LocationData]?, error : NSError? ) in
+            guard let self = self else { return }
             if error != nil {
                 completionHandler(nil, nil)
             } else if locationDataList == nil || locationDataList!.count == 0 {
@@ -32,8 +33,8 @@ class WeatherQueryController {
                 let execQueue = DispatchQueue.global(qos:.userInitiated)
                 execQueue.async {
                     self.queryCurrentWeatherInfo(currentLocation: self.currentLocation!) {
-                        weatherData in
-                        if var weatherData = weatherData {
+                        [weak self] weatherData in
+                        if let self = self, var weatherData = weatherData {
                             self.loadImage(resourceStr: weatherData.currentWeather[0].iconId) {
                                 image, error in
                                 if let image = image {
@@ -73,8 +74,8 @@ class WeatherQueryController {
                 let execQueue = DispatchQueue.global(qos:.userInitiated)
                 execQueue.async {
                     self.queryCurrentWeatherInfo(currentLocation: self.currentLocation!) {
-                        weatherData in
-                        if var weatherData = weatherData {
+                        [weak self] weatherData in
+                        if let self = self, var weatherData = weatherData {
                             self.loadImage(resourceStr: weatherData.currentWeather[0].iconId) {
                                 image, error in
                                 if let image = image {
@@ -113,8 +114,8 @@ class WeatherQueryController {
         
         let networkingService = AppScopeDependencyContainer.shared.networkingService
         networkingService.downloadImage(resource: resourceStr) {
-            image, error in
-            if let image = image {
+            [weak self] image, error in
+            if let self = self, let image = image {
                 self.imageCache[resourceStr] = image
             }
             completionHandler(image, error)

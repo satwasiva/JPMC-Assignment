@@ -30,15 +30,15 @@ class DataSourceFromNetwork : DataSourceProtocol {
         }
         
         let execQueue = DispatchQueue.global(qos:.userInitiated)
-            let networkService = AppScopeDependencyContainer.shared.networkingService
-            if  locationsData[searchTerm] != nil {
-                completionHandler(locationsData[searchTerm], nil)
-                return
-            }
+        let networkService = AppScopeDependencyContainer.shared.networkingService
+        if  locationsData[searchTerm] != nil {
+            completionHandler(locationsData[searchTerm], nil)
+            return
+        }
             
         execQueue.async {
             networkService.getLocationSearchResults(searchTerm: searchTerm) {
-                locationList, error in
+                [weak self] locationList, error in
                 var localList = locationList
                 if localList != nil && localList!.count > 0 {
                     if state != "" && localList!.count > 1 {
@@ -48,7 +48,7 @@ class DataSourceFromNetwork : DataSourceProtocol {
                 if let error = error {
                     completionHandler(nil, error)
                 } else {
-                    self.locationsData[searchTerm] = localList
+                    self?.locationsData[searchTerm] = localList
                     completionHandler(localList, nil)
                 }
             }
@@ -62,7 +62,7 @@ class DataSourceFromNetwork : DataSourceProtocol {
         
         execQueue.async {
             networkService.getLocationSearchResults(lat : lat, lon : lon) {
-                locationList, error in
+                [weak self] locationList, error in
                 var localList = locationList
                 if localList != nil && localList!.count > 0 {
                     if localList!.count > 1 {
@@ -73,7 +73,7 @@ class DataSourceFromNetwork : DataSourceProtocol {
                     completionHandler(nil, error)
                 } else {
                     let searchTerm = localList![0].name + "," + localList![0].state + "," + localList![0].country
-                    self.locationsData[searchTerm] = localList
+                    self?.locationsData[searchTerm] = localList
                     completionHandler(localList, nil)
                 }
             }
@@ -86,8 +86,8 @@ class DataSourceFromNetwork : DataSourceProtocol {
         
             let networkService = AppScopeDependencyContainer.shared.networkingService
         execQueue.async {
-            networkService.getWeatherSearchResults(latitude: currentLocationData.lat, longitude: currentLocationData.lon) { weather, error in
-                self.weatherData = weather
+            networkService.getWeatherSearchResults(latitude: currentLocationData.lat, longitude: currentLocationData.lon) { [weak self] weather, error in
+                self?.weatherData = weather
                 completionHandler(weather, nil)
             }
         }
