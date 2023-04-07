@@ -15,10 +15,10 @@ class AppScopeDependencyContainer {
     let imageCache = ImageCache(memoryLimit: 1024*1024*100)
     
     private init() {
-        sharedDataSource = DataSource(sourceType: .networkLocation)
+        sharedDataSource = DataSourceFromNetwork()
     }
     
     func makeDataSource( ofType sourceType : ContentSourceType ) -> DataSourceProtocol {
-        return DataSource(sourceType: sourceType)
+        return DataSourceWithLocalJSON()
     }
 }

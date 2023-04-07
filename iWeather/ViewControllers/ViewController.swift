@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var sunsetLbl: UILabel!
     
     var mapLocationCenter : CLLocation? = nil
+    var prevAnnotation : ConditionAnnotation? = nil
     var weatherAnnotation : ConditionAnnotation = ConditionAnnotation(title: nil, condition: nil, coordinate: CLLocationCoordinate2D(), image: nil)
     
     var spinner = UIActivityIndicatorView(style: .medium)
@@ -60,13 +61,19 @@ class ViewController: UIViewController {
                 self?.weatherAnnotation.image = weatherImage
             }
         }
-        searchQueryViewModel?.mapLocationCenter.associate { mapLocationCenter in
+        searchQueryViewModel?.mapLocationCenter.associate { [weak self] mapLocationCenter in
             DispatchQueue.main.async {
-                self.mapLocationCenter = mapLocationCenter
-                self.weatherMapView.centerToLocation((self.mapLocationCenter)!)
-                self.weatherAnnotation = ConditionAnnotation(title: nil, condition: nil, coordinate: mapLocationCenter.coordinate, image: nil)
+                self?.mapLocationCenter = mapLocationCenter
+                self?.weatherMapView.centerToLocation((self?.mapLocationCenter)!)
+                self?.prevAnnotation = self?.weatherAnnotation
+                self?.weatherAnnotation = ConditionAnnotation(title: nil, condition: nil, coordinate: mapLocationCenter.coordinate, image: nil)
                 
-                self.weatherMapView.addAnnotation(self.weatherAnnotation)
+                if let self = self {
+                    if self.prevAnnotation != nil {
+                        self.weatherMapView.removeAnnotation(self.prevAnnotation!)
+                    }
+                    self.weatherMapView.addAnnotation(self.weatherAnnotation)
+                }
             }
         }
         searchQueryViewModel?.locationName.associate { [weak self] locationName in
